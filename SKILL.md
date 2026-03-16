@@ -4,7 +4,8 @@ description: Fetches tweets for a specific user via Nitter RSS and prints a comp
 version: 1
 tags: [cli, rss, twitter]
 metadata:
-  git_remote: ""
+  git_remote: "git@github.com:mozi42/twitter-cli.git"
+  git_remote_name: origin
   managed_by: mozi
 ---
 
