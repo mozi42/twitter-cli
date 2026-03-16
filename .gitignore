@@ -1,0 +1,7 @@
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+.env/
+# Historical local cache dir (should use XDG cache now)
+data/
