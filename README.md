@@ -16,19 +16,19 @@ sudo apt install python3-feedparser python3-requests
 
 ```bash
 # Get tweets (uses cache if valid, else fetches)
-twitter-cli elonmusk
+twitter-cli kelseyhightower
 
 # Force fresh fetch
-twitter-cli elonmusk --force
+twitter-cli kelseyhightower --force
 
 # JSON output
-twitter-cli elonmusk --json
+twitter-cli kelseyhightower --json
 
 # Exclude retweets
-twitter-cli elonmusk --no-rt
+twitter-cli kelseyhightower --no-rt
 
 # Only tweets after specific time
-twitter-cli elonmusk --since 2026-03-15T10:00:00
+twitter-cli kelseyhightower --since 2026-03-15T10:00:00
 ```
 
 That's it. Cache is automatic (2 hour TTL), stored in `~/.cache/twitter-cli/accounts/` (XDG).
