@@ -1,18 +1,14 @@
-# Twitter RSS Fetcher
+# twitter-cli
 
-Simple CLI for fetching Twitter feeds via Nitter. Gets tweets, caches them, minimal fuss.
-
-**Installed as:** `twitter-cli` (symlinked to `~/.local/bin/`)
-
-## Requirements
-
-```bash
-sudo apt install python3-feedparser python3-requests
-```
+Simple CLI for fetching Twitter/X feeds via Nitter RSS. Gets tweets, caches them, minimal fuss. No API key required.
 
 ## Install
 
 ```bash
+# Dependencies
+sudo apt install python3-feedparser python3-requests
+
+# Install CLI (symlinks to ~/.local/bin/)
 ./install.sh
 ```
 
